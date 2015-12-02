@@ -30,6 +30,10 @@ PRODUCT_PACKAGES += \
     camera.universal5420 \
     libhwjpeg
 
+# Lights
+PRODUCT_PACKAGES += \
+    lights.universal5420
+
 # GPS
 PRODUCT_PACKAGES += \
     gps.universal5420
