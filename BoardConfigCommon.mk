@@ -17,6 +17,8 @@
 # Inherit from common exynos5420-common
 -include device/samsung/exynos5420-common/BoardConfigCommon.mk
 
+LOCAL_PATH := device/samsung/chagall-common
+
 # Camera
 # COMMON_GLOBAL_CFLAGS += -DUSE_MEMORY_HEAP_ION
 BOARD_NEEDS_MEMORYHEAPION := true
